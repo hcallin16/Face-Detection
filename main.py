@@ -16,6 +16,8 @@ root = tk.Tk()
 root.withdraw()
 currdir = os.getcwd()
 file = fd.askopenfilename(parent=root, initialdir=currdir, title='Please select image file')
+# Enable this line if compiling EXE. Disable with # if running in IDE. Switches directories.
+os.chdir(sys._MEIPASS)
 # Import face detection file from CV2.
 face_cascade = cv2.CascadeClassifier('Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml')
 # Capture chosen video file.
