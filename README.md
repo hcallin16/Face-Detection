@@ -8,3 +8,5 @@ This program detects and blurs any faces in a chosen video.
 2. Select any video with peoples faces.
 3. The video will play with faces blurred. 
 4. Press Esc twice to exit the window.
+# Compatability
+The exe only works on windows. Running the code on Linux or MacOS requires you to setup the python file in your IDE. The source code and libraries are included in the release.
